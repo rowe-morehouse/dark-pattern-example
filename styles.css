@@ -47,7 +47,7 @@ section.checkout span {
   margin-left: 20px;
 }
 
-section.checkout button {
+a.checkoutbutton {
     background-color: green;
     color: white;
     display: block;
