@@ -2,8 +2,52 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
 header {
     background-color: green;
     display: block;
+    height: 4em;
     width: 100%;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+section {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    position: relative;
+}
+
+section.information {
+    border-color: black;
+    float: left;
+    width: 60%;
+}
+
+section.checkout {
+    border-color: gray;
+    float: right;
+    width: 30%;
+}
+
+section.checkout span {
+    display: block;
+    width: 100%;
+}
+
+section.checkout button {
+    background-color: green;
+    color: white;
+    display: block;
+    height: 40px;
+    margin: 5px auto;
+    width: 50%;
 }
