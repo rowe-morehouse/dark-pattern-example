@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: green;
+    display: block;
+    width: 100%;
+}
