@@ -7,3 +7,8 @@ header {
     display: block;
     width: 100%;
 }
+
+.price {
+  width: 20%;
+  float: right;
+}
